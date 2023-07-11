@@ -1,9 +1,7 @@
-Mausritter RPG Discord Bot README
+West Marches Base Manager Discord Bot
+======================================
 
-Mausritter RPG Discord Bot
-==========================
-
-This bot is designed to facilitate community projects within a Discord server for the Mausritter RPG community.
+This bot is designed to facilitate community projects within a Discord server for the Mausritter RPG community, but can be used for any rpg.
 
 Features
 --------
