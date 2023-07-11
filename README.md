@@ -14,10 +14,10 @@ Features
 Commands
 --------
 
-*   `!create [project name] [number of steps] [completion reward]`: Creates a new project with the specified name, number of steps, and reward for completion.
-*   `!update [project name] [progress]`: Updates the progress of the specified project.
-*   `!complete [project name]`: Marks the specified project as completed.
-*   `!list_projects`: Lists all projects, their progress, rewards, and completion statuses.
+*   `$create [project name] [number of steps] [completion reward]`: Creates a new project with the specified name, number of steps, and reward for completion.
+*   `$update [project name] [progress]`: Updates the progress of the specified project.
+*   `$complete [project name]`: Marks the specified project as completed.
+*   `$list_projects`: Lists all projects, their progress, rewards, and completion statuses.
 
 Setup and Installation
 ----------------------
