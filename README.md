@@ -24,7 +24,7 @@ Setup and Installation
 
 1.  Clone this repository or download the source code.
 2.  Install the required Python packages: `discord.py`.
-3.  Create a new bot in the Discord Developer Portal, enable the Server Members Intent and the Message Content Intent under the Bot's Privileged Gateway Intents settings, and get your bot token.
+3.  Create a new bot in the Discord Developer Portal, enable permissions: read messages and send messages, and get your bot token.
 4.  Replace "your\_token\_here" in the `bot.run("your_token_here")` line at the end of `bot.py` with your actual bot token.
 5.  Run the bot using the command `python bot.py`.
 
