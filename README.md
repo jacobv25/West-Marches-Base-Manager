@@ -12,12 +12,27 @@ Features
 *   List all projects and their statuses
 
 Commands
---------
+========
 
-*   `$create [project name] [number of steps] [completion reward]`: Creates a new project with the specified name, number of steps, and reward for completion.
-*   `$update [project name] [progress]`: Updates the progress of the specified project.
-*   `$complete [project name]`: Marks the specified project as completed.
-*   `$list_projects`: Lists all projects, their progress, rewards, and completion statuses.
+`$create [project name] [number of steps] [completion reward]`
+
+Creates a new project with the specified name, number of steps, and reward for completion.  
+**Example:** `$create "Build a Discord Bot" 5 100` - This will create a project named "Build a Discord Bot" with 5 steps and a completion reward of 100.
+
+`$update [project name] [progress]`
+
+Updates the progress of the specified project.  
+**Example:** `$update "Build a Discord Bot" 3` - This will update the progress of the "Build a Discord Bot" project to 3 steps completed.
+
+`$complete [project name]`
+
+Marks the specified project as completed.  
+**Example:** `$complete "Build a Discord Bot"` - This will mark the project "Build a Discord Bot" as completed.
+
+`$list_projects`
+
+Lists all projects, their progress, rewards, and completion statuses.  
+**Example:** `$list_projects` - This will display a list of all the projects along with their progress, rewards, and whether they are completed or not.
 
 Setup and Installation
 ----------------------
