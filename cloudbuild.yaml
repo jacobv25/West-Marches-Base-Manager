@@ -4,4 +4,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'push', 'gcr.io/bold-catfish-390002/west-marches-base-manager' ]
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['compute', 'instances', 'update-container', 'INSTANCE_NAME', '--zone=ZONE', '--container-image=gcr.io/bold-catfish-390002/west-marches-base-manager']
+  args: ['compute', 'instances', 'update-container', 'instance-2', '--zone=us-west4-b', '--container-image=gcr.io/bold-catfish-390002/west-marches-base-manager']
