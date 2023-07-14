@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord_token_handler import get_secret  # import the function
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -53,4 +54,4 @@ async def list_projects(ctx):
         progress_bar += "]"
         await ctx.send(f"{name}\nProgress: {progress_bar} {project.progress}/{project.steps}\nCompletion Reward: {project.reward}\nStatus: {project.status}")
 
-bot.run("your-token-here")
+bot.run(get_secret('bold-catfish-390002', 'discord-token'))  # replace 'my-project-id' and 'discord-token' with your actual project id and secret name.
