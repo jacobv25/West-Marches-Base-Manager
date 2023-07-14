@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/bold-catfish-390002/west-marches-base-manager', '.' ]
+  args: ['build', '-t', 'gcr.io/bold-catfish-390002/west-marches-base-manager', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'push', 'gcr.io/bold-catfish-390002/west-marches-base-manager' ]
+  args: ['push', 'gcr.io/bold-catfish-390002/west-marches-base-manager']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['compute', 'instances', 'update-container', 'instance-2', '--zone=us-west4-b', '--container-image=gcr.io/bold-catfish-390002/west-marches-base-manager', '--container-env=DISCORD_BOT_TOKEN=$(DISCORD_BOT_TOKEN)]
+  args: ['compute', 'instances', 'update-container', 'instance-2', '--zone=us-west4-b', '--container-image=gcr.io/bold-catfish-390002/west-marches-base-manager', '--container-env=DISCORD_BOT_TOKEN=$(DISCORD_BOT_TOKEN)']
